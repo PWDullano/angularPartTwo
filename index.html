@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular module 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body ng-controller="MainController">
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#/hello">Hello</a></li>
+      <li role="presentation"><a href="#/goodbye">Goodbye</a></li>
+    </ul>
+    <div ng-view></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
+  <script type="text/javascript"src='js/app.js'></script>
+  <script type="text/javascript"src='js/controllers/main_controller.js'></script>
+  <script type="text/javascript"src='js/controllers/hello_controller.js'></script>
+  <script type="text/javascript"src='js/controllers/goodbye_controller.js'></script>
+  <script type="text/javascript"src='js/controllers/add_controller.js'></script>
+  <script type="text/javascript"src='js/controllers/div_controller.js'></script>
+  </body>
+</html>
